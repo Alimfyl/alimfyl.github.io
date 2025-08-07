@@ -1,0 +1,24 @@
+@media (max-width: 1024px){
+    .center {
+        padding-left: calc(50% - 786px/2);
+        padding-right: calc(50% - 786px/2);
+    }
+    .for {
+        &__item {
+           height: 268px; 
+        }
+    }
+    .special__product-box{
+        column-gap: 29px;
+        row-gap: 38px;
+    }
+    .catalog-main__product-box{
+        padding-bottom: 41px;
+        column-gap: 29px;
+        row-gap: 39px;
+    }
+    .footer__img{
+        display: none;
+    }
+    
+}

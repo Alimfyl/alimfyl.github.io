@@ -1,0 +1,46 @@
+@media(max-width: 767px){
+    .select{
+        margin-top: 32px;
+    &__filter{
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding-top: 14px;
+    }
+    }
+    .container{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .top{
+        &__heading-catalog{
+            padding-top: 82px;
+        }
+        &-catalog{
+            height: 400px;
+        }
+    }
+    .catalog{
+        padding-top: 32px;
+        &__product-box{
+            justify-content: center;
+        }
+        &__heading{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            padding-top: 9px;
+            padding-bottom: 4px;
+        }
+        &__text{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            padding-bottom: 8px;
+        }
+        &__price{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+        }
+    }
+}

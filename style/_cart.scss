@@ -1,0 +1,210 @@
+.top-cart {
+    height: 400px;
+    background-image: url(../img/background/background\ cart.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.top-cart__cart{
+    padding-top: 128px;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+}
+.cart{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+}
+.cart__text-box{
+    margin-bottom: 14px;
+    margin-right: 27px;
+    display: flex;
+    justify-content: space-between;
+    }
+.cart__text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.cart__product-box{
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid rgb(202, 205, 216);
+}
+.cart__img{
+    width: 173px;
+    height: 173px;
+}
+.cart__product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.cart__product-end{
+    padding-bottom: 50px;
+}
+.cart__heading-catalog{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    padding-top: 73px;
+    padding-bottom: 32px;
+}
+.cart__heading{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding-bottom: 8px;
+}
+.cart__description{
+    display: block;
+    width: 379px;
+    height: 37px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+    padding-bottom: 12px;
+}
+.cart__price{
+    padding-bottom: 15px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #050505;
+}
+.cart__link{
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 30px;
+    color: #000000;
+}
+.cart__link-delete{
+    padding-right: 0px;
+}
+.cart__number{
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    width: 71px;
+    height: 51px;
+    border-radius: 6px;
+    background: rgb(247, 246, 246);
+}
+.cart__button-box{
+    display: flex;
+    gap: 7px;
+}
+.cart__button{
+    transition: all 1s;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    width: 200px;
+    height: 37px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+}
+.cart__button:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.cart__placing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 379px;
+    height: 556px;
+    border-radius: 20px;
+    background: rgb(247, 246, 246);
+}
+.cart__placing-text{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    padding-top: 42px;
+}
+.cart__border{
+    background-color: rgb(247, 246, 246);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(202, 205, 216);
+    padding-top: 44px;
+}
+.cart__border-box{
+    max-width: 288px;
+    max-height: 143px;
+    padding-left: 27px;
+    padding-right: 64px;
+    display: flex;
+    flex-direction: column;
+}
+.cart__border-user{
+    padding-top: 35px;
+}
+.cart__border::placeholder{
+    color: rgb(0, 0, 0);
+}
+#address::placeholder{
+    color: rgb(0, 0, 0);
+}
+.cart__total{
+    padding-top: 68px;
+    padding-bottom: 18px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.cart__total-low{
+    font-weight: 400;
+}
+.cart__arrange{
+    font-family: Montserrat;
+    transition: all 1s;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 290px;
+    height: 41px;
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 4);
+    background-color: transparent;
+    border-radius: 20px;
+}
+.cart__arrange:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.special__product-cart{
+    margin-bottom: 33px;
+}
+.special__link-cart{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+@import "_table-cart";
+@import "_mobile-cart";

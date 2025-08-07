@@ -1,0 +1,10 @@
+@media (max-width: 1024px){
+    .catalog{
+        &__product-box{
+            column-gap: 28px;
+        }
+    }
+    .filtering-form{
+        display: none;
+    }
+}
